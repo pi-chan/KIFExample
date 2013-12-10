@@ -1,0 +1,10 @@
+PODS:
+  - KIF (2.0.0)
+
+DEPENDENCIES:
+  - KIF (~> 2.0)
+
+SPEC CHECKSUMS:
+  KIF: ff3b46deb62ce3f8e99c6a2c786729e1eea241ba
+
+COCOAPODS: 0.27.1
