@@ -14,13 +14,39 @@
 
 @implementation NavigationTests
 
-- (void)test
+- (void)testTab1
 {
+    [tester tapViewWithAccessibilityLabel:@"Tab1"];
+    [tester tapViewWithAccessibilityLabel:@"Tab1"];
+    
     [tester waitForViewWithAccessibilityLabel:@"FirstPageLabel"];
+    [tester waitForViewWithAccessibilityLabel:@"firstpage"];
+    [tester waitForViewWithAccessibilityLabel:@"NextPageButton"];
     [tester tapViewWithAccessibilityLabel:@"NextPageButton"];
     [tester waitForViewWithAccessibilityLabel:@"SecondPageLabel"];
+    
+    // Back
+    [tester tapViewWithAccessibilityLabel:@"firstpage"];
+    
+    [tester waitForViewWithAccessibilityLabel:@"NextPageButton"];
+    [tester tapViewWithAccessibilityLabel:@"NextPageButton"];
+    [tester waitForViewWithAccessibilityLabel:@"SecondPageLabel"];
+    
+    // Back, another way
     [tester tapViewWithAccessibilityLabel:@"Back"];
-    [tester waitForViewWithAccessibilityLabel:@"FirstPageLabel"];
+}
+
+- (void)testTab2
+{
+    [tester tapViewWithAccessibilityLabel:@"タブ2"];
+    [tester tapViewWithAccessibilityLabel:@"タブ2"];
+    
+    [tester waitForViewWithAccessibilityLabel:@"AlertButton"];
+    [tester tapViewWithAccessibilityLabel:@"AlertButton"];
+    [tester waitForViewWithAccessibilityLabel:@"OK"];
+    [tester waitForViewWithAccessibilityLabel:@"キャンセル"];
+    
+    [tester tapViewWithAccessibilityLabel:@"キャンセル"];
 }
 
 @end

@@ -27,6 +27,7 @@
 		010358A518574F260004A5E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 010358A318574F260004A5E0 /* InfoPlist.strings */; };
 		010358A718574F260004A5E0 /* IntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010358A618574F260004A5E0 /* IntegrationTests.m */; };
 		010358AF1857513E0004A5E0 /* NavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010358AE1857513E0004A5E0 /* NavigationTests.m */; };
+		01073F59185A029C008D26B4 /* Tab2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01073F58185A029C008D26B4 /* Tab2ViewController.m */; };
 		6A4656019BDC4452B26EBCE4 /* libPods-IntegrationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE29C5F81FD45D58436C2AD /* libPods-IntegrationTests.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,8 @@
 		010358A618574F260004A5E0 /* IntegrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegrationTests.m; sourceTree = "<group>"; };
 		010358A818574F260004A5E0 /* IntegrationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntegrationTests-Prefix.pch"; sourceTree = "<group>"; };
 		010358AE1857513E0004A5E0 /* NavigationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationTests.m; sourceTree = "<group>"; };
+		01073F57185A029C008D26B4 /* Tab2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tab2ViewController.h; sourceTree = "<group>"; };
+		01073F58185A029C008D26B4 /* Tab2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tab2ViewController.m; sourceTree = "<group>"; };
 		044042F40F784CDD89F1EBBE /* Pods-IntegrationTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrationTests.xcconfig"; path = "Pods/Pods-IntegrationTests.xcconfig"; sourceTree = "<group>"; };
 		2CE29C5F81FD45D58436C2AD /* libPods-IntegrationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntegrationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -158,6 +161,8 @@
 				0103587818574DEF0004A5E0 /* ViewController.m */,
 				0103587A18574DEF0004A5E0 /* Images.xcassets */,
 				0103586918574DEF0004A5E0 /* Supporting Files */,
+				01073F57185A029C008D26B4 /* Tab2ViewController.h */,
+				01073F58185A029C008D26B4 /* Tab2ViewController.m */,
 			);
 			path = KIFExample;
 			sourceTree = "<group>";
@@ -376,6 +381,7 @@
 				0103587918574DEF0004A5E0 /* ViewController.m in Sources */,
 				0103587318574DEF0004A5E0 /* AppDelegate.m in Sources */,
 				0103586F18574DEF0004A5E0 /* main.m in Sources */,
+				01073F59185A029C008D26B4 /* Tab2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
